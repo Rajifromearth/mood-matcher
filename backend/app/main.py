@@ -9,7 +9,11 @@ app = FastAPI(title="Mood Matcher API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://localhost:5173"],
+    allow_origins=[
+        "http://localhost:3000",
+        "http://localhost:5173",
+        "https://mood-matcher-9yvc.vercel.app",
+    ],
     allow_methods=["*"],
     allow_headers=["*"],
 )

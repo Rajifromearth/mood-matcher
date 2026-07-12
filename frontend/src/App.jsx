@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Sidebar from './components/Sidebar'
 import './App.css'
 
-const API_BASE = 'http://127.0.0.1:8000'
+const API_BASE = 'https://mood-matcher.onrender.com'
 
 const MOODS = [
   { key: 'happy', label: 'Happy', color: '#F5B841' },
